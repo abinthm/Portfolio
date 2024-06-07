@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abin Thomas</title>
+  <link rel="icon" href="./media/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav id="head" class="flex justify-between p-4">
+      <img class="w-[37.51px] h-[28.35px] justify-start m-2 " src="./media/logo shadow.png" alt="">
+      <ul class="flex gap-6 justify-end p-4 ">
+        <li class="hidden sm:block"><a  href="#home">Home</a></li>
+        <li class="hidden sm:block"><a href="#about">About</a></li>
+        <li class="hidden sm:block"><a href="#contact">Contact</a></li>
+        <li class="hidden sm:block border"></li>
+        <li class="hidden sm:block"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+          <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+        </svg<button>>
+        </button></li>
+        <li class="hidden sm:block"><button class="btn" href="#resume">Resume</button></li>
+        <li class="block sm:hidden">
+          <button id="hbtn" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+          <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+        </svg>
+        </button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="mobnav" class="hidden  w-[100%] h-[100%] bg-[#070a13] absolute flex justify-center items-center text-center z-[999] ">
+    <ul class="flex flex-col justify-center items-center gap-10">
+      <li><a id="hbbtn" href="#home">Home</a></li>
+      <li><a id="abbtn" href="#about">About</a></li>
+      <li><a id="cbbtn" href="#contact">Contact</a></li>
+      <li class="border w-full"></li>
+      <li>
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+          </svg>
+        </button>
+      </li>
+      <li ><a class="btn" href="#resume">Resume</a></li>
+    </ul>
+  </div>
+  
+
+
+
+  <main>
+
+
+<section id="home" class="flex flex-col items-center text-center px-2 m-8 gap-4">
+  <img class="rounded-full w-24" src="./media/Group 2.png" alt="">
+  <h2 class="text-slate-600 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Hello, I'm Abin <strong>{ }</strong></h2>
+  <h1 class="text-slate-400 uppercase tracking-tighter text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+    FRONT-END<br class="leading-none">WEB DEVELOPER.
+  </h1>
+  <p class="text-base sm:text-lg md:text-xl lg:text-2xl">A passionate Frontend / Fullstack-Jamstack web developer and UI/UX enthusiast specialized in building stunning pixel-perfect interactive websites/applications.</p>
+  <a class="btn">Reach Out</a>
+</section>
+
+
+
+<section class="text-left px-4 m-8 gap-6">
+
+ <h2 class="text-slate-600 font-bold text-sm sm:text-lg md:text-xl lg:text-2xl">INTRODUCTION</h2>
+ <h1 class="text-slate-400 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">OVERVIEW.</h1>
+  <p class="text-base sm:text-lg md:text-xl lg:text-2xl max-w-prose mt-4">
+    Welcome to my digital playground! 🎨 I'm Abin, a B.Tech Computer Science undergrad with a passion for crafting stunning, interactive web experiences. As a front-end web developer, I specialize in bringing designs to life with pixel-perfect precision and seamless user interactions.
+  </p>
+  <p class="text-base sm:text-lg md:text-xl lg:text-2xl max-w-prose mt-4">
+    Whether I'm transforming ideas into dynamic web applications or obsessing over the finer points of UI/UX, my goal is always the same: to create engaging and memorable online experiences. When I'm not coding, you'll find me exploring the latest in web technologies, brainstorming innovative ideas, or enjoying a good cup of coffee ☕.
+  </p>
+  <p class="text-base sm:text-lg md:text-xl lg:text-2xl max-w-prose mt-4">
+    Let's connect and create something amazing together! 🚀
+  </p>
+  <br>
+  <br>
+  <hr>
+</section>
+<section id="about">
+<h1 class="text-slate-400 px-4 mx-8 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">What i do.</h1>
+<section class="flex flex-col flex-wrap sm:flex-row justify-center items-center ">
+  
+    <div class="flip-card ">
+      <div class="flip-card-inner">
+        <div div class="flip-card-front" >
+          <img src="./media/sd.svg" alt="Avatar" >
+        </div>
+        <div class="flip-card-back p-2 flex items-center">
+          <p class="text-white" >"Specializing in crafting sleek and efficient static websites, I leverage technologies such as HTML5, CSS3, JavaScript, and Tailwind CSS to create fast-loading, responsive web pages. From elegant design to seamless user experience, I bring your vision to life with precision and creativity."</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img c src="./media/dd.svg" alt="Avatar" >
+        </div>
+        <div class="flip-card-back p-2 flex items-center">
+          <p class="text-white">"With expertise in dynamic web development, I excel in building interactive and data-driven websites using technologies like Node.js, React.js, Next.js, and Tailwind CSS. I transform your ideas into dynamic online experiences that captivate and inspire, employing robust frameworks and innovative solutions."</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./media/iot.svg" alt="Avatar" >
+        </div>
+        <div class="flip-card-back p-2 flex items-center">
+          <p class="text-white">"In the realm of IoT, I lead the way in developing smart and connected solutions using technologies such as Raspberry Pi, Arduino, MQTT, and AWS IoT. From IoT devices to sensor networks, I architect and deploy innovative solutions that harness the power of interconnected devices to enhance efficiency and convenience."</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card ">
+      <div class="flip-card-inner ">
+        <div class="flip-card-front ">
+          <img src="./media/devops.svg" alt="Avatar" >
+        </div>
+        <div class="flip-card-back p-2 flex items-center">
+          <p class="text-white">"As a DevOps specialist, I streamline development processes and optimize infrastructure using technologies like Docker, Kubernetes, Node.js, and React.js. I empower teams to deliver high-quality software at scale by implementing automation, cloud architecture, and continuous integration/continuous deployment (CI/CD) pipelines."</p>
+        </div>
+      </div>
+    </div>
+  
+</section>
+</section>
+
+<section class="p-5">
+  <div class="bg-slate-900 rounded-3xl h-fit  mx-8 my-5 border-solid border-rose-800 overflow-auto">
+    <div>
+      <h1 class="text-slate-400 text-center px-4 m-8 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl uppercase">techstack.</h1>
+    <section class="flex flex-wrap justify-evenly items-center p-4" >
+      <div class="perspective w-[100px] h-[100px] relative">
+        <div class="transition-transform duration-[400ms] ease-[cubic-bezier(0.03,0.98,0.52,0.99)] transform-initial w-full h-full">
+          <img src="./media/figma.png" alt="Your Image" class="w-28 object-cover">
+          <!-- Hover areas -->
+          <div class="hover-area top-left" onmouseover="this.parentElement.classList.add('hover-top-left')" onmouseout="this.parentElement.classList.remove('hover-top-left')"></div>
+          <div class="hover-area top-right" onmouseover="this.parentElement.classList.add('hover-top-right')" onmouseout="this.parentElement.classList.remove('hover-top-right')"></div>
+          <div class="hover-area bottom-left" onmouseover="this.parentElement.classList.add('hover-bottom-left')" onmouseout="this.parentElement.classList.remove('hover-bottom-left')"></div>
+          <div class="hover-area bottom-right" onmouseover="this.parentElement.classList.add('hover-bottom-right')" onmouseout="this.parentElement.classList.remove('hover-bottom-right')"></div>
+        </div>
+      </div>
+      
+    
+      <div class="perspective w-[100px] h-[100px] relative">
+        <div class="transition-transform duration-[400ms] ease-[cubic-bezier(0.03,0.98,0.52,0.99)] transform-initial w-full h-full">
+          
+      
+          <img src="./media/Tailwind.svg" alt="Your Image" class="w-28 object-cover">
+        
+          <!-- Hover areas -->
+          <div class="hover-area top-left" onmouseover="this.parentElement.classList.add('hover-top-left')" onmouseout="this.parentElement.classList.remove('hover-top-left')"></div>
+          <div class="hover-area top-right" onmouseover="this.parentElement.classList.add('hover-top-right')" onmouseout="this.parentElement.classList.remove('hover-top-right')"></div>
+          <div class="hover-area bottom-left" onmouseover="this.parentElement.classList.add('hover-bottom-left')" onmouseout="this.parentElement.classList.remove('hover-bottom-left')"></div>
+          <div class="hover-area bottom-right" onmouseover="this.parentElement.classList.add('hover-bottom-right')" onmouseout="this.parentElement.classList.remove('hover-bottom-right')"></div>
+        </div>
+      </div>
+
+      <div class="perspective w-[100px] h-[100px] relative">
+        <div class="transition-transform duration-[400ms] ease-[cubic-bezier(0.03,0.98,0.52,0.99)] transform-initial w-full h-full">
+      
+          <img src="./media/Git.svg" alt="Your Image" class="w-28 object-cover">
+        
+  
+          <!-- Hover areas -->
+          <div class="hover-area top-left" onmouseover="this.parentElement.classList.add('hover-top-left')" onmouseout="this.parentElement.classList.remove('hover-top-left')"></div>
+          <div class="hover-area top-right" onmouseover="this.parentElement.classList.add('hover-top-right')" onmouseout="this.parentElement.classList.remove('hover-top-right')"></div>
+          <div class="hover-area bottom-left" onmouseover="this.parentElement.classList.add('hover-bottom-left')" onmouseout="this.parentElement.classList.remove('hover-bottom-left')"></div>
+          <div class="hover-area bottom-right" onmouseover="this.parentElement.classList.add('hover-bottom-right')" onmouseout="this.parentElement.classList.remove('hover-bottom-right')"></div>
+        </div>
+      </div>
+
+
+      <div class="perspective w-[100px] h-[100px] relative">
+        <div class="transition-transform duration-[400ms] ease-[cubic-bezier(0.03,0.98,0.52,0.99)] transform-initial w-full h-full">
+         
+          <img src="./media/react.png" alt="Your Image" class="w-28 object-cover">
+        
+          <!-- Hover areas -->
+          <div class="hover-area top-left" onmouseover="this.parentElement.classList.add('hover-top-left')" onmouseout="this.parentElement.classList.remove('hover-top-left')"></div>
+          <div class="hover-area top-right" onmouseover="this.parentElement.classList.add('hover-top-right')" onmouseout="this.parentElement.classList.remove('hover-top-right')"></div>
+          <div class="hover-area bottom-left" onmouseover="this.parentElement.classList.add('hover-bottom-left')" onmouseout="this.parentElement.classList.remove('hover-bottom-left')"></div>
+          <div class="hover-area bottom-right" onmouseover="this.parentElement.classList.add('hover-bottom-right')" onmouseout="this.parentElement.classList.remove('hover-bottom-right')"></div>
+        </div>
+      </div>
+
+      <div class="perspective w-[100px] h-[100px] relative">
+        <div class="transition-transform duration-[400ms] ease-[cubic-bezier(0.03,0.98,0.52,0.99)] transform-initial w-full h-full">
+         
+          <img src="./media/react.png" alt="Your Image" class="w-28 object-cover">
+        
+          <!-- Hover areas -->
+          <div class="hover-area top-left" onmouseover="this.parentElement.classList.add('hover-top-left')" onmouseout="this.parentElement.classList.remove('hover-top-left')"></div>
+          <div class="hover-area top-right" onmouseover="this.parentElement.classList.add('hover-top-right')" onmouseout="this.parentElement.classList.remove('hover-top-right')"></div>
+          <div class="hover-area bottom-left" onmouseover="this.parentElement.classList.add('hover-bottom-left')" onmouseout="this.parentElement.classList.remove('hover-bottom-left')"></div>
+          <div class="hover-area bottom-right" onmouseover="this.parentElement.classList.add('hover-bottom-right')" onmouseout="this.parentElement.classList.remove('hover-bottom-right')"></div>
+        </div>
+      </div>
+
+
+      <div class="perspective w-[100px] h-[100px] relative">
+        <div class="transition-transform duration-[400ms] ease-[cubic-bezier(0.03,0.98,0.52,0.99)] transform-initial w-full h-full">
+         
+          <img src="./media/react.png" alt="Your Image" class="w-28 object-cover">
+        
+          <!-- Hover areas -->
+          <div class="hover-area top-left" onmouseover="this.parentElement.classList.add('hover-top-left')" onmouseout="this.parentElement.classList.remove('hover-top-left')"></div>
+          <div class="hover-area top-right" onmouseover="this.parentElement.classList.add('hover-top-right')" onmouseout="this.parentElement.classList.remove('hover-top-right')"></div>
+          <div class="hover-area bottom-left" onmouseover="this.parentElement.classList.add('hover-bottom-left')" onmouseout="this.parentElement.classList.remove('hover-bottom-left')"></div>
+          <div class="hover-area bottom-right" onmouseover="this.parentElement.classList.add('hover-bottom-right')" onmouseout="this.parentElement.classList.remove('hover-bottom-right')"></div>
+        </div>
+      </div>
+
+      <div class="perspective w-[100px] h-[100px] relative">
+        <div class="transition-transform duration-[400ms] ease-[cubic-bezier(0.03,0.98,0.52,0.99)] transform-initial w-full h-full">
+      
+          <img src="./media/HTML.svg" alt="Your Image" class="w-28 object-cover">
+        
+
+          <!-- Hover areas -->
+          <div class="hover-area top-left" onmouseover="this.parentElement.classList.add('hover-top-left')" onmouseout="this.parentElement.classList.remove('hover-top-left')"></div>
+          <div class="hover-area top-right" onmouseover="this.parentElement.classList.add('hover-top-right')" onmouseout="this.parentElement.classList.remove('hover-top-right')"></div>
+          <div class="hover-area bottom-left" onmouseover="this.parentElement.classList.add('hover-bottom-left')" onmouseout="this.parentElement.classList.remove('hover-bottom-left')"></div>
+          <div class="hover-area bottom-right" onmouseover="this.parentElement.classList.add('hover-bottom-right')" onmouseout="this.parentElement.classList.remove('hover-bottom-right')"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+
+
+
+<section id="contact">
+  <div class="bg-slate-900 rounded-3xl h-fit  mx-8 my-5 border-solid border-rose-800 overflow-auto">
+    <h1 class="text-slate-400 text-center px-4 m-8 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl uppercase">Get in touch.</h1>
+    <div class="m-4">
+    <form>
+
+      <input class="text-slate-500 p-3 rounded-lg w-full" type="text" placeholder="Enter your name"><br><br>
+
+      <input class="text-slate-500 p-3 rounded-lg w-full" type="text" placeholder="Enter your E-mail address"><br><br>
+      <textarea name="message" class="text-slate-500 p-3 rounded-lg w-full" placeholder="Tell me a bit more what you are looking for ?"></textarea><br><br>
+      <input class="btn" type="submit" value="Submit">
+    </form>
+  </div>
+  </div>
+</section>
+</div>
+</main>
+
+<footer class="mx-8">
+  <div><hr></div>
+  <div class="flex justify-between">
+    <a href="#head"><img class="w-[37.51px] h-[28.35px] m-3" src="./media/logo shadow.png" alt="Logo"></a>
+    <div class="text-right">
+      <div class="flex justify-end gap-1 items-center my-2">
+        <a href="tel:+919567033071"><h5>+91 9567033071</h5></a>
+        <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="phone"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M19.23 15.26l-2.54-.29c-.61-.07-1.21.14-1.64.57l-1.84 1.84c-2.83-1.44-5.15-3.75-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52c-.12-1.01-.97-1.77-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07.53 8.54 7.36 15.36 15.89 15.89 1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z" fill="#e11d48" class="color000000 svgShape"></path></svg>
+      </div>
+      <div class="flex justify-end gap-1 items-center my-2">
+        <a class="underline" href="mailto:abinthomas253@gmail.com"><h5>abinthomas253@gmail.com</h5></a>
+        <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="mail"><path fill="#e11d48" d="M16,14.81,28.78,6.6A3,3,0,0,0,27,6H5a3,3,0,0,0-1.78.6Z" class="color231f20 svgShape"></path><path fill="#e11d48" d="M16.54,16.84h0l-.17.08-.08,0A1,1,0,0,1,16,17h0a1,1,0,0,1-.25,0l-.08,0-.17-.08h0L2.1,8.26A3,3,0,0,0,2,9V23a3,3,0,0,0,3,3H27a3,3,0,0,0,3-3V9a3,3,0,0,0-.1-.74Z" class="color231f20 svgShape"></path></svg>
+      </div>
+    </div>
+  </div>
+  <div class="my-4">
+    <div class="flex gap-2 justify-end">
+      <a href="https://www.linkedin.com/in/abinthomas253/">
+        <svg class="w-5" viewBox="0 0 658 658" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M560.66 560.665H 463.158V407.975C463.158 371.562 462.51 324.708 412.446 324.708C361.668 324.708 353.886 364.364 353.886 405.349V560.665H256.417V246.661H350.028V289.559H351.325C370.423 256.94 405.896 237.453 443.671 238.847C542.502 238.847 560.693 303.859 560.693 388.391L560.66 560.665ZM146.399 203.731C115.141 203.731 89.8172 178.407 89.8172 147.149C89.8172 115.891 115.141 90.5674 146.399 90.5674C177.656 90.5674 202.98 115.891 202.98 147.149C202.98 178.407 177.656 203.731 146.399 203.731ZM195.134 560.665H97.5343V246.661H195.134V560.665ZM609.265 0.036854H48.5402C22.049 -0.254971 0.32425 20.9834 0 47.4746V610.502C0.32425 637.026 22.049 658.264 48.5402 657.972H609.265C635.821 658.296 657.643 637.058 658 610.502V47.4422C657.611 20.8861 635.789 -0.352247 609.265 0.00442748" fill="#E11D48"/>
+        </svg>
+      </a>
+      <a href="https://github.com/abinthm">
+        <svg class="w-5" viewBox="0 0 512 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M256 0.314667C114.624 0.314667 0 114.917 0 256.315C0 369.424 73.344 465.381 175.061 499.237C187.861 501.605 192.555 493.691 192.555 486.928C192.555 480.827 192.32 460.667 192.213 439.269C121.003 454.757 105.963 409.061 105.963 409.061C94.3147 379.472 77.5467 371.6 77.5467 371.6C54.3147 355.707 79.296 356.048 79.296 356.048C105.003 357.861 118.528 382.437 118.528 382.437C141.355 421.563 178.411 410.256 193.024 403.707C195.328 387.152 201.963 375.867 209.28 369.467C152.427 363.003 92.6507 341.051 92.6507 242.96C92.6507 215.013 102.656 192.165 119.04 174.245C116.373 167.781 107.605 141.755 121.515 106.491C121.515 106.491 143.019 99.6213 191.936 132.731C212.352 127.056 234.24 124.219 256 124.112C277.76 124.219 299.669 127.056 320.128 132.731C368.981 99.6 390.464 106.491 390.464 106.491C404.395 141.755 395.627 167.781 392.981 174.245C409.387 192.165 419.328 215.013 419.328 242.96C419.328 341.285 359.445 362.939 302.443 369.275C311.616 377.211 319.808 392.805 319.808 416.677C319.808 450.939 319.509 478.501 319.509 486.928C319.509 493.733 324.117 501.733 337.088 499.216C438.763 465.317 512.021 369.403 512.021 256.336C512 114.939 397.376 0.314667 256 0.314667Z" fill="#E11D48"/>
+          <path d="M96.96 367.888C96.4053 369.168 94.4 369.552 92.5653 368.677C90.7093 367.845 89.664 366.096 90.2613 364.837C90.816 363.536 92.8213 363.173 94.6773 364.048C96.5333 364.859 97.6 366.608 96.96 367.888Z" fill="#E11D48"/>
+          <path d="M107.328 379.451C106.112 380.581 103.723 380.048 102.101 378.277C100.416 376.485 100.117 374.096 101.355 372.965C102.613 371.835 104.917 372.368 106.603 374.16C108.288 375.931 108.608 378.299 107.328 379.451Z" fill="#E11D48"/>
+          <path d="M117.419 394.192C115.84 395.28 113.28 394.256 111.701 391.995C110.123 389.712 110.123 386.981 111.744 385.893C113.323 384.805 115.861 385.787 117.461 388.048C119.019 390.352 119.019 393.083 117.419 394.192Z" fill="#E11D48"/>
+          <path d="M131.243 408.443C129.835 410 126.848 409.573 124.672 407.461C122.432 405.392 121.813 402.469 123.221 400.912C124.651 399.355 127.659 399.803 129.856 401.893C132.075 403.963 132.736 406.907 131.243 408.443Z" fill="#E11D48"/>
+          <path d="M150.336 416.699C149.717 418.704 146.837 419.621 143.936 418.768C141.035 417.893 139.136 415.547 139.733 413.52C140.331 411.493 143.232 410.555 146.155 411.472C149.035 412.325 150.933 414.672 150.336 416.699Z" fill="#E11D48"/>
+          <path d="M171.285 418.235C171.349 420.347 168.896 422.096 165.845 422.139C162.795 422.203 160.299 420.496 160.277 418.427C160.277 416.293 162.688 414.565 165.739 414.501C168.789 414.437 171.285 416.144 171.285 418.235Z" fill="#E11D48"/>
+          <path d="M190.784 414.928C191.147 416.976 189.035 419.109 186.005 419.664C183.04 420.219 180.288 418.939 179.904 416.891C179.541 414.779 181.696 412.667 184.661 412.112C187.669 411.579 190.4 412.816 190.784 414.928Z" fill="#E11D48"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <h3 class="text-center tracking-[0.2em] font-normal text-slate-400 text-xs uppercase">~ Abin Thomas ~</h3>
+</footer>
+
+
+
+
+
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
