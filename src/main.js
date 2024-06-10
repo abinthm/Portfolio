@@ -26,6 +26,3 @@ hbtn.addEventListener('click', () => {
     document.body.style.overflow = mnav.classList.contains('hidden') ? '' : 'hidden';
 });
 
-
-
-

@@ -156,3 +156,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #e11d48;
   outline: 1px solid #e11d48;
 }
+
+#container{
+  display: none;
+}
